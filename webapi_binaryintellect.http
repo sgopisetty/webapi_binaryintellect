@@ -4,3 +4,16 @@ GET {{webapi_binaryintellect_HostAddress}}/minimalapi/employees/1
 Accept: application/json
 
 ###
+
+POST {{webapi_binaryintellect_HostAddress}}/minimalapi/security/getToken
+Content-Type : application/json
+
+{
+    "UserName" : "sekhar",
+    "Password" : "abcdef"
+}
+
+
+    
+
+
